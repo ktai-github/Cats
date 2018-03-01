@@ -52,7 +52,17 @@
     NSDictionary *jsonDict = (NSDictionary *)jsonObj;
     
     dispatch_async(dispatch_get_main_queue(), ^{
-      NSLog(@"Retrieved dictionary: %@", jsonDict);
+//      NSLog(@"Retrieved dictionary: %@", jsonDict);
+      NSDictionary *photosDict = [jsonDict objectForKey:@"photos"];
+      NSArray *photoArray = [photosDict objectForKey:@"photo"];
+      
+      for (NSDictionary *photo in photoArray) {
+        NSLog(@"https://farm%@.staticflickr.com/%@/%@_%@.jpg",
+        [photo objectForKey:@"farm"],
+        [photo objectForKey:@"server"],
+        [photo objectForKey:@"id"],
+        [photo objectForKey:@"secret"]);
+      }
     });
   }
 }
