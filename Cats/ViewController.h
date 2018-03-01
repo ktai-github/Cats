@@ -11,6 +11,9 @@
 @interface ViewController : UIViewController
 
 @property (nonatomic) NSMutableArray *photoMutArray;
+@property (weak, nonatomic) IBOutlet UIButton *loadButton;
+//@property (weak, nonatomic) IBOutlet UILabel *photoTitleLabel;
+//@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
 
