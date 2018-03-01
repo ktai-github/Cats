@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic) NSMutableArray *photoMutArray;
 
 @end
 
