@@ -7,12 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Photo.h"
+#import "CollectionViewCell.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController 
 
-@property (nonatomic) NSMutableArray *photoMutArray;
-@property (weak, nonatomic) IBOutlet UIButton *loadButton;
-//@property (weak, nonatomic) IBOutlet UILabel *photoTitleLabel;
+
+@property (weak, nonatomic) IBOutlet UILabel *photoTitleLabel;
 //@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end

@@ -11,5 +11,8 @@
 @interface Photo : NSObject
 
 @property (nonatomic) NSURL *url;
+@property (nonatomic) NSString *title;
+
+- (instancetype) initWithDict: (NSDictionary *) photo;
 
 @end

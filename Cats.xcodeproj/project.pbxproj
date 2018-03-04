@@ -14,6 +14,7 @@
 		2C7A7F702048995C0054D087 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7A7F6E2048995C0054D087 /* LaunchScreen.storyboard */; };
 		2C7A7F732048995C0054D087 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7A7F722048995C0054D087 /* main.m */; };
 		2C7A7F7B20489F930054D087 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7A7F7A20489F930054D087 /* Photo.m */; };
+		2C7A7FD1204B7D5A0054D087 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7A7FD0204B7D5A0054D087 /* CollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		2C7A7F722048995C0054D087 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C7A7F7920489F930054D087 /* Photo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
 		2C7A7F7A20489F930054D087 /* Photo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		2C7A7FCF204B7D5A0054D087 /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		2C7A7FD0204B7D5A0054D087 /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				2C7A7F672048995C0054D087 /* ViewController.m */,
 				2C7A7F7920489F930054D087 /* Photo.h */,
 				2C7A7F7A20489F930054D087 /* Photo.m */,
+				2C7A7FCF204B7D5A0054D087 /* CollectionViewCell.h */,
+				2C7A7FD0204B7D5A0054D087 /* CollectionViewCell.m */,
 				2C7A7F692048995C0054D087 /* Main.storyboard */,
 				2C7A7F6C2048995C0054D087 /* Assets.xcassets */,
 				2C7A7F6E2048995C0054D087 /* LaunchScreen.storyboard */,
@@ -148,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C7A7F7B20489F930054D087 /* Photo.m in Sources */,
+				2C7A7FD1204B7D5A0054D087 /* CollectionViewCell.m in Sources */,
 				2C7A7F682048995C0054D087 /* ViewController.m in Sources */,
 				2C7A7F732048995C0054D087 /* main.m in Sources */,
 				2C7A7F652048995C0054D087 /* AppDelegate.m in Sources */,
